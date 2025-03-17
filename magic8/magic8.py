@@ -11,21 +11,21 @@ phrases = ["Yes - definitely", "It is decidedly so", "Without a doubt", "Reply h
 random_number = random.randint(1, 9) # imported from "random" to create a random number between 1 and 9
 
 if random_number == 1:
-    answer = phrases[8]
+    answer = phrases[0]
 elif random_number == 2:
-    answer = phrases[8]
+    answer = phrases[1]
 elif random_number == 3:
-    answer = phrases[8]
+    answer = phrases[2]
 elif random_number == 4:
-    answer = phrases[8]
+    answer = phrases[3]
 elif random_number == 5:
-    answer = phrases[8]
+    answer = phrases[4]
 elif random_number == 6:
-    answer = phrases[8]
+    answer = phrases[5]
 elif random_number == 7:
-    answer = phrases[8]
+    answer = phrases[6]
 elif random_number == 8:
-    answer = phrases[8]
+    answer = phrases[7]
 elif random_number == 9:
     answer = phrases[8]
 else:
