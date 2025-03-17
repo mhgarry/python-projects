@@ -9,26 +9,28 @@ answer = "" # Empty string representing the default answer before it is assigned
 
 phrases = ["Yes - definitely", "It is decidedly so", "Without a doubt", "Reply hazy, try again", "Ask again later", "Better not tell you now", "My sources say no", "Outlook not so good", "Very doubtful"] # An array of the 9 possible phrases that the magic8 ball can say
 random_number = random.randint(1, 9) # imported from "random" to create a random number between 1 and 9
-# starting_index = 0
 
-print(random_number)
 if random_number == 1:
-    print(phrases[0])
+    answer = phrases[8]
 elif random_number == 2:
-    print(phrases[1])
+    answer = phrases[8]
 elif random_number == 3:
-    print(phrases[2])
+    answer = phrases[8]
 elif random_number == 4:
-    print(phrases[3])
+    answer = phrases[8]
 elif random_number == 5:
-    print(phrases[4])
+    answer = phrases[8]
 elif random_number == 6:
-    print(phrases[5])
+    answer = phrases[8]
 elif random_number == 7:
-    print(phrases[6])
+    answer = phrases[8]
 elif random_number == 8:
-    print(phrases[7])
+    answer = phrases[8]
 elif random_number == 9:
-    print(phrases[8])
+    answer = phrases[8]
 else:
     print("Error.")
+
+print(f"{name} asks: ", [question])
+print("\n")
+print("Magic 8-Ball's answer: ", [answer])
